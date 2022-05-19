@@ -1,0 +1,23 @@
+.header{
+    color: inherit;
+    .row{
+        // background-color: salmon;
+        .col{
+            display: flex;
+            justify-content:space-between;
+        }
+    }
+}
+.logo_container{
+    color: inherit;
+
+  }
+  .btn_signup_container{
+    //   background-color: antiquewhite;
+      margin-block: auto;
+      .button {
+          border-radius: 25px;
+          padding-inline: 25px;
+      }
+  }
+
