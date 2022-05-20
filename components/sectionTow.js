@@ -16,7 +16,7 @@ function SectionTow() {
         <Row  xs={1} md={2} lg={3} xl={5}>
             {images && images.map((element, index) => (
                     <Col id={index} key={index} className={`${index%2 !== 0 ? "pt-5" :""} my-3 `}>
-                        <Card className="border-0 shadow-0 bg-transparent text-center ">
+                        <Card className="border-0 shadow-0 bg-transparent text-center card-image">
                             <Image
                                 src={element}
                                 alt="Picture of the author"

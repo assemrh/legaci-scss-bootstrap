@@ -17,8 +17,13 @@ export default function Home() {
       <main className={styles.main}>
         <SectionOne />
         <SectionTow />
-        <SectionThree/>        
+        <SectionThree />
       </main>
+      <footer className="footer bg-blue pt-4 pb-2">
+        <div className="d-flex justify-content-center">
+          <p>© 2022 Legaci. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }
