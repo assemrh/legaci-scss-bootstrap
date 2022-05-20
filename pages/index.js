@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import img1 from "../public/assets/Collecting-pana-1.png";
-import img2 from "../public/assets/images/unsplash_fDostElVhN8.jpg";
-import { Card, Col, Container, Row } from "react-bootstrap";
 import Header from "../components/header";
 import styles from "../styles/Home.module.scss";
+import SectionOne from "../components/sectionOne";
+import SectionTow from "../components/sectionTow";
+import SectionThree from "../components/sectionThree";
 
 export default function Home() {
   return (
@@ -16,89 +15,9 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.main}>
-        <section className={styles.section_1}>
-          <Container>
-            <Row>
-              <Col>
-                <Card className="border-0 shadow-0 bg-transparent text-center">
-                  <h1>The New Era Of Memory Sharing!</h1>
-                  <h3>Build And Share Your Memories Like Never Before!</h3>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-        <section className={styles.section_2}>
-          <Container>
-              <Row >
-                <Col>
-                  <Card className="border-0 shadow-0 bg-transparent text-center">
-                    <Image src={img2} alt="Picture of the author"  layout="responsive"/>
-                  </Card>
-                </Col>
-                <Col className={styles.col}>
-                  <Card className="border-0 shadow-0 bg-transparent text-center">
-                    <Image src={img2} alt="Picture of the author" layout="responsive"/>
-                  </Card>
-                </Col>
-                <Col>
-                  <Card className="border-0 shadow-0 bg-transparent text-center">
-                    <Image src={img2} alt="Picture of the author"  layout="responsive"/>
-                  </Card>
-                </Col>
-                <Col className={styles.col}>
-                  <Card className="border-0 shadow-0 bg-transparent text-center">
-                    <Image src={img2} alt="Picture of the author"  layout="responsive"/>
-                  </Card>
-                </Col>
-                <Col>
-                  <Card className="border-0 shadow-0 bg-transparent text-center">
-                    <Image src={img2} alt="Picture of the author"  layout="responsive"/>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-        </section>
-        <section className={styles.section_3}>
-          <Container>
-            <Row>
-              <Col>
-                <Card className="border-0 shadow-sm">
-                  <Row>
-                    <Col>
-                      <Image
-                        src={img1}
-                        alt="Picture of the author"
-                        // width={500} automatically provided
-                        // height={500} automatically provided
-                        // blurDataURL="data:..." automatically provided
-                        // placeholder="blur" // Optional blur-up while loading
-                      />
-                    </Col>
-                    <Col>
-                      <div className="p-3 pt-5">
-                        <h2>Become Pioneers and Build with Us!</h2>
-                        <p>
-                          Legaci is a new private social media app that allows
-                          you to build your private life story, save all your
-                          memories, send them to the future, and create albums
-                          with friends and family with all your shared memories,
-                          together.
-                        </p>
-                        <p>
-                          By joining us today, you will become the first
-                          exclusive users to help build Legaci, as well as
-                          having access to all our feautures for free. FOREVER!
-                          Who’s With Us?
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        </section>
+        <SectionOne />
+        <SectionTow />
+        <SectionThree/>        
       </main>
     </div>
   );
