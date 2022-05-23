@@ -11,8 +11,9 @@ function Header() {
       <Container>
         <Row className={`${styles.row} `}  >
           <Col className={`${styles.col} `} >
-            <div>
+            <div  className={`${styles.logo} `}>
               <Image
+               
                 src={logo}
                 alt="Picture of the author"
                 // width={500} automatically provided

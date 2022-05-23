@@ -7,17 +7,17 @@
   letter-spacing: 0.01em;
   text-align: center;
 }
-.button{
-  background-color: #FCCF6866;
+.button {
+  background-color: #fccf6866;
   display: flex;
   margin: auto;
   border: hidden;
   justify-items: center;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
   border-radius: 38.69px;
-  padding: .75rem 1.5rem;
-  color: #E9A917;
+  padding: 0.75rem 1.5rem;
+  color: #e9a917;
   flex: 1 1 auto;
   font-family: Montserrat;
   font-size: 17px;
@@ -26,12 +26,12 @@
   letter-spacing: 0.01em;
   text-align: left;
 
-  &:hover{
-    color: #E9A917;
+  &:hover {
+    color: #e9a917;
   }
 }
-.icon{
-  margin: 0 .25rem;
+.icon {
+  margin: 0 0.25rem;
 }
 .text {
   font-family: Montserrat;
@@ -43,5 +43,16 @@
   @media screen and (min-width: 700px) {
     margin: 1rem calc(1rem + 10wv + 20px);
   }
-
+  @media screen and (max-width: 700px) {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  @media screen and (max-width: 458px) {
+    height: 156px;
+    width: 335px;
+    left: 20px;
+    top: 197px;
+    border-radius: nullpx;
+  }
 }
