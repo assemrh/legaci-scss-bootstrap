@@ -4,7 +4,6 @@ import styles from "../styles/Home.module.scss";
 import SectionOne from "../components/sectionOne";
 import SectionTow from "../components/sectionTow";
 import SectionThree from "../components/sectionThree";
-import { FaRegClock } from 'react-icons/fa';
 
 export default function Home() {
   return (
