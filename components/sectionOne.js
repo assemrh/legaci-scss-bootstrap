@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/SectionOne.module.scss";
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
-import { FaRegClock } from '@react-icons/all-files/fa/FaRegClock';
+import { FaRegClock } from 'react-icons/fa';
 
 function SectionOne() {
   return (
