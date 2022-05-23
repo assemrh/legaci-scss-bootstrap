@@ -1,30 +1,33 @@
-.header{
-    color: inherit;
-    .row{
-        // background-color: salmon;
-        .col{
-            display: flex;
-            justify-content:space-between;
-        }
+.header {
+  color: inherit;
+  .row {
+    // background-color: salmon;
+    .col {
+      display: flex;
+      justify-content: space-between;
     }
+  }
 }
-.logo_container{
-    color: inherit;
-    font-family: Mulish;
-font-size: 18px;
-font-weight: 700;
-line-height: 23px;
-letter-spacing: 0.01em;
-text-align: center;
-
-
+.logo_container {
+  color: inherit;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.btn_signup_container {
+  //   background-color: antiquewhite;
+  margin-block: auto;
+  .button {
+    border-radius: 25px;
+    padding-inline: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #111;
   }
-  .btn_signup_container{
-    //   background-color: antiquewhite;
-      margin-block: auto;
-      .button {
-          border-radius: 25px;
-          padding-inline: 25px;
-      }
-  }
-
+}
